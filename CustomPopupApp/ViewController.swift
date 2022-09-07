@@ -17,5 +17,8 @@ class ViewController: UIViewController {
     }
 
    // TODO ibaction to open popup1
+        @IBAction func popup1Pressed(_ sender: Any) {
+        Popup1ViewController.showPopup(parentVC: self)
+    }
 
 }

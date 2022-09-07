@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AE7204128C881150076B702 /* Popup1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE7204028C881150076B702 /* Popup1.storyboard */; };
+		4AE7204328C8817D0076B702 /* Popup1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE7204228C8817D0076B702 /* Popup1ViewController.swift */; };
 		4AF3801328C788F4003E7F64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3801228C788F4003E7F64 /* AppDelegate.swift */; };
 		4AF3801528C788F4003E7F64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3801428C788F4003E7F64 /* SceneDelegate.swift */; };
 		4AF3801728C788F4003E7F64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF3801628C788F4003E7F64 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4AE7204028C881150076B702 /* Popup1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Popup1.storyboard; sourceTree = "<group>"; };
+		4AE7204228C8817D0076B702 /* Popup1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup1ViewController.swift; sourceTree = "<group>"; };
 		4AF3800F28C788F4003E7F64 /* CustomPopupApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPopupApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF3801228C788F4003E7F64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AF3801428C788F4003E7F64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AE7203F28C880EF0076B702 /* Popups */ = {
+			isa = PBXGroup;
+			children = (
+				4AE7204028C881150076B702 /* Popup1.storyboard */,
+				4AE7204228C8817D0076B702 /* Popup1ViewController.swift */,
+			);
+			path = Popups;
+			sourceTree = "<group>";
+		};
 		4AF3800628C788F4003E7F64 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		4AF3801128C788F4003E7F64 /* CustomPopupApp */ = {
 			isa = PBXGroup;
 			children = (
+				4AE7203F28C880EF0076B702 /* Popups */,
 				4AF3801228C788F4003E7F64 /* AppDelegate.swift */,
 				4AF3801428C788F4003E7F64 /* SceneDelegate.swift */,
 				4AF3801628C788F4003E7F64 /* ViewController.swift */,
@@ -126,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AF3801F28C788F5003E7F64 /* LaunchScreen.storyboard in Resources */,
+				4AE7204128C881150076B702 /* Popup1.storyboard in Resources */,
 				4AF3801C28C788F5003E7F64 /* Assets.xcassets in Resources */,
 				4AF3801A28C788F4003E7F64 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AF3801728C788F4003E7F64 /* ViewController.swift in Sources */,
+				4AE7204328C8817D0076B702 /* Popup1ViewController.swift in Sources */,
 				4AF3801328C788F4003E7F64 /* AppDelegate.swift in Sources */,
 				4AF3801528C788F4003E7F64 /* SceneDelegate.swift in Sources */,
 			);
