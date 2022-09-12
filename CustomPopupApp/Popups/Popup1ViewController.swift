@@ -17,7 +17,7 @@ class Popup1ViewController: UIViewController {
     static func showPopup(parentVC: UIViewController){
         //creating a reference for the dialogView controller
         if let popupViewController = UIStoryboard(name: "Popup1", bundle: nil).instantiateViewController(withIdentifier: "Popup1") as? Popup1ViewController {
-            popupViewController.view.backgroundColor = UIColor.brown
+            popupViewController.view.backgroundColor = UIColor.clear
             
             //presenting the pop up viewController from the parent viewController
             parentVC.present(popupViewController, animated: true)
